@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src:url('../fonts/proxima_nova/proxima_nova_semibold.ttf') format('ttf'),
+        url('../fonts/proxima_nova/proxima_nova_semibold.otf') format('otf'),
+        url('../fonts/proxima_nova/proxima_nova_semibold.woff') format('woff'),
+        url('../fonts/proxima_nova/proxima_nova_semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src:url('../fonts/proxima_nova/proxima_nova_bold.ttf') format('ttf'),
+        url('../fonts/proxima_nova/proxima_nova_bold.otf') format('otf'),
+        url('../fonts/proxima_nova/proxima_nova_bold.woff') format('woff'),
+        url('../fonts/proxima_nova/proxima_nova_bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,700;0;1,400&display=swap');
+
+$title-ff : 'Proxima Nova', sans-serif;
+$body-ff  : 'Pt Sans', sans-serif;
+$btn-ff   : 'Pt Sans', sans-serif;
+
+
+$primary-color: #ffcc00;
+$secondary-color: #f2f;
+$dark-gray: #666666;
+$medium-gray: #898f8f;
+
+$text-color : #665f60;
+$title-color: #2c4058; 
+$light-gray : #cccccc;
+$menu-color : rgb(233, 230, 230);
+$white-color: #ffffff;
+$post-color : black;
+$post-time-color : #55b7ff;
+
+
+$body-color: #333333;
+$backing-color: #aba5c0;
+$violet: #9f9acf;
+$dark-violet: #8d89b8;
+$btn-color: #7d7a7c;
+$bgLightGrey-color: #ebebeb;
+$title-color:#665f60;
+$social-icon: #ebebeb;
+$form-color: rgba(255,255,255, .35);
+
+
+$border-width: 1px;
+
+$body-bg: $secondary-color;

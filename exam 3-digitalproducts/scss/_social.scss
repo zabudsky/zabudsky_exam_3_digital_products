@@ -1,0 +1,41 @@
+$social-size: 32px;
+$social-border: 1px;
+
+.social {
+    margin: 0;
+    background-color: $dark-violet;
+    text-align: center;
+    list-style: none;
+    padding: .8em;
+    &__item {
+        display: inline-block;
+        margin: 5px;
+    }
+    &--not-bg {
+        background-color: transparent;
+    }
+    &:last-child {
+        color: red;
+    }
+    &__link {
+        background-color: $social-icon;
+        color: $dark-violet;
+        text-decoration: none;
+        text-align: center;
+        width: $social-size;
+
+        height: $social-size;
+        font-size: 2rem;
+        line-height: $social-size;
+        line-height: calc(#{$social-size} - 2 * #{$social-border});
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 0px;
+        @include tr;
+        @include hover {
+            border: 2px solid rgb(167, 172, 160);
+            background-color: rgb(134, 66, 126);
+            color: $white-color;
+        }
+    }
+}
